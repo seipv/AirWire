@@ -1,0 +1,11 @@
+# Install Sphinx
+pip install sphinx sphinx-rtd-theme
+
+# Initialize Sphinx (if starting from scratch)
+sphinx-quickstart
+
+# Build documentation
+make html
+
+# Serve locally
+python -m http.server --directory _build/html/
